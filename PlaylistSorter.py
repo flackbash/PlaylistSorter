@@ -41,6 +41,7 @@ def sortPlaylist(playlist):
 def sortAllPlaylistsInDirectory(directory="."):
     """Sorts each playlist in a directory by artist
 
+    Arguments:
     directory - a string
     """
     os.chdir(directory)
